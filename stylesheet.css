@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:2em;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+nav{
+    border: 2px solid red;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 30em;
+    margin-left: 30em;
+    line-height: 2;
+    border-radius: 2rem;
+}
+h2{
+    background: yellow;
+    border-radius: 2rem 2rem 0 0;
+}
+li{
+    border-top: 1px solid black;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover,li a:focus{
+    color:blue;
+    background-color: red;
+}
+li a{
+    display: block;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
